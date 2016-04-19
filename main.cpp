@@ -19,12 +19,12 @@ int main(int argc, char *argv[])
 
 int counter(int n)
 {
-    string slowo=int2string(n);
-    int length=slowo.size();
+    string word=int2string(n);
+    int length=word.size();
     int helper=0;
     for( int i = 1; i <= length; i++)
     {
-        if(slowo[length-i]=='0' || slowo[length-i]=='1')
+        if(word[length-i]=='0' || word[length-i]=='1')
             helper++;
     }
     
